@@ -1,0 +1,3 @@
+name,command
+defonet,docker run --privileged --rm --gpus all zichenzhang/defonet-train:2.1
+test,test
