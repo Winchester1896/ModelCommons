@@ -1,0 +1,19 @@
+version: '0'
+
+services:
+  frontend:
+    build: ./frontend
+    ports: 
+      - '3000:3000'
+      - '80:80'
+    container_name: frontend-docker
+    restart: always
+    links:
+      - backend
+
+  backend:
+    build: ./backend
+    ports:
+      - '5000:5000'
+    container_name: backend-docker
+    restart: always

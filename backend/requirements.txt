@@ -1,0 +1,5 @@
+flask==2.0.3
+flask-cors==3.0.10
+pandas==1.4.3
+ruamel-yaml==0.17.21
+docker==5.0.3
